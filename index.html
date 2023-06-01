@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logo ifpb.png" type="image/x-icon">
+</head>
+
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Fomulário</legend>
+            <div class="campos">
+
+                <label for="matricula">Matrícula:
+                    <input type="text" name="matricula" id="matricula">
+                </label>
+
+
+                <label for="dataadmissao">Data de admissão:
+                    <input type="date" name="dataadmissao", id="dataadmissao">
+                </label>
+
+
+                <label for="nome">Nome:
+                    <input type="text" name="nome" id="nome">
+                </label>
+
+
+                <label for="curso">Curso:
+                    <select name="curso" id="curso">
+                        <option value=""></option>
+                        <option value="tsi">Sistemas para Internet</option>
+                        <option value="tgc">Gestão Comercial</option>
+                    </select>
+                </label>
+
+
+                <label for="email">Email:
+                    <input type="email" name="email" id="email">
+                </label>
+
+
+                <label for="tel">Telefone:
+                    <input type="tel" name="tel" id="tel">
+                </label>
+
+
+                <label for="datanascimento">Data de Nascimento:
+                    <input type="date" name="datanascimento" id="datanascimento">
+                </label>
+
+
+                <label for="text">Endereço:
+                    <input type="text" name="text" id="text">
+                </label>
+
+
+                <div class="estado-cidade">
+                    <label for="estado">Estado:
+                        <select name="estado" id="estado">
+                            <option value=""></option>
+                        </select>
+                    </label>
+                    <label for="cidade">Cidade:
+                        <select name="cidade" id="cidade">
+                            <option value=""></option>
+                        </select>
+                    </label>
+                </div>
+
+            </div>
+            <div class="box-botao">
+                <input type="button" value="Enviar">
+            </div>
+        </fieldset>
+    </form>
+    <script src="./script.js"></script>
+</body>
+
+</html>
